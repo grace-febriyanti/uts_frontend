@@ -1,0 +1,33 @@
+.nav-daftar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-tautan {
+  display: inline-block;
+  text-decoration: none;
+  color: #374151;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 4px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-tautan:hover {
+  color: #4f46e5;
+}
+
+.nav-tautan[aria-current="page"] {
+  color: #2e524c;
+  border-bottom-color: #4f46e5;
+}
+
+.nav-tautan:focus-visible {
+  outline: 3px solid #4f46e5;
+  outline-offset: 4px;
+}
